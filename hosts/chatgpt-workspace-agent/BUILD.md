@@ -17,7 +17,7 @@ o-MATIC Server
 Connects ChatGPT to o-MATIC Server factory tools and project data available to this authenticated connection.
 
 **Icon**  
-Upload [omatic-server-app-icon-10kb.png](assets/omatic-server-app-icon-10kb.png) — 256 × 256 PNG, 1,113 bytes (under the 10 KB limit shown in the form).
+Use the canonical Probot artwork at [logo.png](assets/logo.png). The current artwork is larger than ChatGPT's 10 KB custom-MCP icon limit. The icon field is optional: if the form reports that limit, clear the rejected file and leave the icon blank. Do not substitute a different robot or alter Probot's established artwork without approval.
 
 **Server URL**  
 Cloud: https://factory.o-matic.ai/mcp  
@@ -26,7 +26,7 @@ On-premise: the operator's externally reachable HTTPS MCP URL, or a supported Se
 **Authentication**  
 The Server's documented MCP OAuth flow is available, but its oauth-local consent uses a shared server-side consent key and is explicitly not full per-user SSO. Do not describe this connection as meeting the SSO requirement until the actual ChatGPT OAuth flow has been verified with user-specific identity and grants. The ChatGPT connector's Add/Save step and a successful tool call are separate acceptance checks.
 
-The prior Probot logo is 256 × 256 but exceeds this form's 10 KB icon limit. Use the compact Server app icon above for this connector form.
+The connector may be created without an icon while the original Probot artwork exceeds the current upload limit. Keep the established mascot art; do not replace it with a generic robot.
 
 ## Agent card
 
