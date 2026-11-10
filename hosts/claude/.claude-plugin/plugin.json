@@ -1,5 +1,6 @@
 {
-  "name": "omatic-project-bot",
+  "name": "o-matic-project-bot",
+  "displayName": "o-MATIC Project Bot",
   "version": "0.1.2",
   "description": "The o-MATIC factory lead: starts and verifies your selected factory, then routes work to its specialist crew through your authenticated o-MATIC Server.",
   "author": {
