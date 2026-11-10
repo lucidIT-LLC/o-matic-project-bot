@@ -6,6 +6,28 @@ This file builds the native ChatGPT Workspace Agent shown in the Agents director
 
 > **MCP gate:** The Server's current client support register marks ChatGPT/Enterprise unverified. The connection from Codex is live, but that is not evidence that ChatGPT can reach or authenticate to the same endpoint. Follow the actual endpoint's OAuth and reachability checks below; do not mark the ChatGPT projection ready until a fresh ChatGPT test call succeeds under the intended user's identity.
 
+## o-MATIC Server custom app card
+
+Use these values when adding the custom MCP server through ChatGPT Plugins → Add custom MCP server:
+
+**Name**  
+o-MATIC Server
+
+**Short description**  
+Connects ChatGPT to o-MATIC Server factory tools and project data available to this authenticated connection.
+
+**Icon**  
+Upload [omatic-server-app-icon-10kb.png](assets/omatic-server-app-icon-10kb.png) — 256 × 256 PNG, 1,113 bytes (under the 10 KB limit shown in the form).
+
+**Server URL**  
+Cloud: https://factory.o-matic.ai/mcp  
+On-premise: the operator's externally reachable HTTPS MCP URL, or a supported Secure MCP Tunnel for a private host.
+
+**Authentication**  
+The Server's documented MCP OAuth flow is available, but its oauth-local consent uses a shared server-side consent key and is explicitly not full per-user SSO. Do not describe this connection as meeting the SSO requirement until the actual ChatGPT OAuth flow has been verified with user-specific identity and grants. The ChatGPT connector's Add/Save step and a successful tool call are separate acceptance checks.
+
+The prior Probot logo is 256 × 256 but exceeds this form's 10 KB icon limit. Use the compact Server app icon above for this connector form.
+
 ## Agent card
 
 **Name**  
