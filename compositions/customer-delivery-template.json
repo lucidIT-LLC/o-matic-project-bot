@@ -1,6 +1,6 @@
 {
   "id": "customer-delivery",
-  "displayName": "Customer Delivery Factory",
+  "displayName": "Project Bot — Customer Delivery Context Template",
   "lead": "probot",
   "roster": [
     "fred",
@@ -9,6 +9,6 @@
     "brandy",
     "monet"
   ],
-  "goal": "Deliver customer work within the customer-specific Server factory, corpus, agreements, and grants.",
-  "serverFactory": "must be selected from the authenticated user\u2019s live Server grants; customer data is not bundled"
+  "goal": "Configure the same Project Bot for customer work within the specifically selected Server factory, corpus, agreements, and grants; this template does not define a separate Project Bot identity.",
+  "serverFactory": "must be selected from the authenticated user’s live Server grants; customer data is not bundled"
 }
