@@ -1,9 +1,9 @@
 {
   "name": "omatic-project-bot",
   "version": "0.1.1",
-  "description": "Project Bot and specialist agents for o-MATIC Foundry",
+  "description": "The o-MATIC factory lead: starts and verifies your selected factory, then routes work to its specialist crew through your authenticated o-MATIC Server.",
   "author": {
-    "name": "LucidIT"
+    "name": "o-MATIC AI Research Lab"
   },
   "repository": "https://github.com/LucidIT-LLC/o-matic-project-bot"
 }
