@@ -2,7 +2,8 @@
 
 One verified Probot image is carried into every host adapter that packages this Project Bot. Preserve the same artwork; do not redraw it or substitute another role's art.
 
-- OpenAI / ChatGPT / Codex: `hosts/openai/assets/logo.png`, used for both the listing logo and composer icon.
+- OpenAI plugin / ChatGPT / Codex: `hosts/openai/assets/logo.png`, used for both the plugin listing logo and composer icon.
+- ChatGPT Workspace Agent: `hosts/chatgpt-workspace-agent/assets/logo.png`, uploaded as the Agent Builder avatar.
 - Cursor: `hosts/cursor/assets/logo.png`, referenced by its Cursor plugin manifest and marketplace listing.
 - Claude Code: `hosts/claude/assets/logo.png`; Claude's current plugin listing supports a human-readable display name but has no icon property.
 - Copilot Studio: `hosts/copilot-studio/assets/logo.png`, for the agent avatar upload.
