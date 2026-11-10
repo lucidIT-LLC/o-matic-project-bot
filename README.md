@@ -16,7 +16,7 @@ The canonical role design is shared. Each host gets its own packaging, connector
 | Grok Build | Claude-compatible plugin plus portable skills and AGENTS.md | Grok Build documents plugin and subagent support. Confirm live handoffs in the installed version. |
 | Copilot Studio | Copy/paste setup kit for Project Bot and five child agents | Build one Project Bot parent and one reusable specialist graph. Select Foundry, LucidIT, or another project through its live Server context; do not create one Probot per project. |
 
-This is not one marketplace listing for every host. OpenAI, Cursor, Claude, Grok, and Microsoft each have their own distribution and approval route. The repository is the shared source package.
+Each host has its own plugin format and official directory. This repository already includes GitHub-hosted marketplace catalogs for Claude Code and Cursor; follow the steps below to add them. Those catalogs are not the same as approval in Anthropic's or Cursor's curated public directories.
 
 ## Connect to o-MATIC Server
 
@@ -45,9 +45,26 @@ See [`compositions/`](compositions/) for project-context templates and the disti
 
 Smith is not included in this core bundle. The Foundry record keeps Smith opt-in and advisory. Jo and Jake remain separate single-specialist directions, not part of these multi-agent compositions.
 
-## Install
+## Install from this repository
 
-Choose the host adapter under [`hosts/`](hosts/). For Copilot Studio, follow [`hosts/copilot-studio/BUILD.md`](hosts/copilot-studio/BUILD.md). For Cursor or Claude Code, install the corresponding plugin package. For Codex, add the OpenAI plugin and connect the Server endpoint; use the host's own agent orchestration configuration for specialist handoffs.
+### Claude Code marketplace
+
+Add this public GitHub repository as a marketplace, then install Project Bot:
+
+```sh
+claude plugin marketplace add LucidIT-LLC/o-matic-project-bot
+claude plugin install omatic-project-bot@o-matic-project-bot-marketplace
+```
+
+### Cursor marketplace
+
+In Cursor, open **Customize → Plugins → Browse Marketplace → Add Marketplace → Import from GitHub**, then enter `https://github.com/LucidIT-LLC/o-matic-project-bot`. Install `omatic-project-bot` at user or project scope. A team admin can import the same repository under **Dashboard → Plugins & MCPs → Team Marketplaces**.
+
+### Other hosts
+
+For Copilot Studio, follow [`hosts/copilot-studio/BUILD.md`](hosts/copilot-studio/BUILD.md) to create the agent and connected specialists manually. For ChatGPT/Codex, package the OpenAI plugin folder and upload it through the plugin UI; submission to OpenAI's public directory is a separate reviewed step.
+
+These GitHub-hosted catalogs make the plugin installable directly from this repository. Anthropic's public directory requires a paid Claude account and a separate portal submission. Cursor's curated public Marketplace also requires a submission and review; Cursor requires public marketplace plugins to be open source. This repo currently reserves all rights, so it is not being submitted to Cursor's public directory under the current license.
 
 ## Security and capability truth
 
