@@ -2,6 +2,8 @@
 
 Project Bot is the o-MATIC name for Probot: one reusable, operator-facing agent identity across Foundry, LucidIT, Practically Adventist, and other project contexts. Start the same agent inside the intended host Project/workspace or name the project in the request. Project Bot selects that project's live authorized o-MATIC Server factory context; it does not need a separate copy for each project. A Factory Agent is configured for a task and outcome, with an accountable lead and reusable specialist cast. Brandy leads the distinct Brand Bot composition when the outcome is brand-led. Project Bot owns requests from intake through verified close and routes material specialist work to Fred, Data, Carver, Brandy, and Monet.
 
+The same Probot artwork ships with every platform adapter in this repository; hosts use their native avatar or icon support when available.
+
 The package is public because the Server remains the control plane. It contains host-facing role definitions and setup adapters; it contains no credentials, factory data, or private governance playbook. Installing these files does not grant access to o-MATIC Server.
 
 ## One product, host-native agents
