@@ -1,16 +1,16 @@
 {
-  "name": "o-matic-foundry",
+  "name": "o-matic-project-bot-marketplace",
   "owner": {
     "name": "LucidIT"
   },
   "metadata": {
-    "description": "o-MATIC Foundry Project Bot and specialist roles"
+    "description": "LucidIT Project Bot and reusable specialist roles for multiple project contexts"
   },
   "plugins": [
     {
       "name": "omatic-project-bot",
       "source": "hosts/cursor",
-      "description": "Project Bot and specialist agents for o-MATIC Foundry",
+      "description": "One Project Bot agent with reusable specialists and o-MATIC Server project selection",
       "version": "0.1.1",
       "author": {
         "name": "LucidIT"
