@@ -1,6 +1,6 @@
 # Persona asset mapping
 
-Do not redraw or substitute artwork. Use only verified persona assets and preserve the host-specific source of each icon.
+Do not redraw or substitute artwork. Use verified persona assets and preserve each host's supported icon treatment.
 
 Known Foundry registry links:
 
@@ -9,6 +9,6 @@ Known Foundry registry links:
 - Data: `agent-icons/data-ai-badge.png`, `agent-icons/data-icon-final.png`, `brand/omatic-robot-data.svg`.
 - Carver, Brandy, Monet: do not add art until authentic source assets are registered and verified.
 
-The Cursor listing references the existing public Probot Copilot icon at `agency/assets/m365/probot-color-192.png` in the o-MATIC Agency repository. It is referenced by public raw URL and is not copied into this repository.
+The OpenAI plugin's `hosts/openai/assets/logo.png` is the existing public Probot Copilot icon, sourced from `agency/assets/m365/probot-color-192.png` in the o-MATIC Agency repository. Cursor references the same source by public raw URL.
 
 Each host has different avatar, icon and pet support. A registry link is not proof that every host can display that asset.
