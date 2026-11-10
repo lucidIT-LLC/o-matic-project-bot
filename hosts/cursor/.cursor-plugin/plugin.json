@@ -1,7 +1,7 @@
 {
   "name": "omatic-project-bot",
   "displayName": "o-MATIC Project Bot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Project Bot and specialist agents for o-MATIC Foundry.",
   "author": {
     "name": "LucidIT"

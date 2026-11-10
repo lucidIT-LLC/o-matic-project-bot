@@ -53,4 +53,4 @@ Public source is copyright LucidIT. No rights to the private Server, factory dat
 
 ## Source decisions
 
-This package projects Foundry decisions 862–865. The authoritative persona records, governance, runtime grants, and private procedures remain in o-MATIC Server and the canonical source systems. Reconcile this projection against those records before each release.
+This package projects Foundry decisions 862–868. Decision 867 defines a Factory Agent as the task-specific composition and clarifies that Probot and o-MATIC Project Bot are one role. Decision 868 makes this GitHub repository the canonical public source tree; Foundry’s database remains authoritative for decisions, private governance, live factory identity, and grants. Reconcile this projection against those records before each release.

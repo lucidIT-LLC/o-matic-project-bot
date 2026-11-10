@@ -1,0 +1,14 @@
+{
+  "name": "o-matic-project-bot-marketplace",
+  "description": "LucidIT host plugins for o-MATIC factory agents",
+  "owner": {
+    "name": "LucidIT"
+  },
+  "plugins": [
+    {
+      "name": "omatic-project-bot",
+      "source": "./hosts/claude",
+      "description": "Project Bot and reusable specialist agents for o-MATIC factories"
+    }
+  ]
+}
