@@ -13,6 +13,8 @@
         "developerName": "o-MATIC AI Research Lab",
         "category": "Productivity",
         "brandColor": "#00B5AD",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png",
         "capabilities": [
           "Coordinate a factory request from plan through verification",
           "Use connected o-MATIC Server tools when authenticated and authorized",
