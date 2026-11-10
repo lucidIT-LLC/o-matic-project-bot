@@ -1,14 +1,14 @@
 {
   "name": "o-matic-project-bot-marketplace",
-  "description": "LucidIT host plugins for o-MATIC factory agents",
+  "description": "The o-MATIC AI Research Lab's Project Bot and reusable specialist crew.",
   "owner": {
-    "name": "LucidIT"
+    "name": "o-MATIC AI Research Lab"
   },
   "plugins": [
     {
       "name": "omatic-project-bot",
       "source": "./hosts/claude",
-      "description": "Project Bot and reusable specialist agents for o-MATIC factories"
+      "description": "Your o-MATIC factory lead: starts and verifies the selected factory, then routes work to its specialist crew through your authenticated o-MATIC Server."
     }
   ]
 }
