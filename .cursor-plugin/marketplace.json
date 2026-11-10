@@ -1,20 +1,21 @@
 {
   "name": "o-matic-project-bot-marketplace",
   "owner": {
-    "name": "LucidIT"
+    "name": "o-MATIC AI Research Lab"
   },
   "metadata": {
-    "description": "LucidIT Project Bot and reusable specialist roles for multiple project contexts"
+    "description": "Meet the o-MATIC Project Bot and its specialist factory crew."
   },
   "plugins": [
     {
       "name": "omatic-project-bot",
       "source": "hosts/cursor",
-      "description": "One Project Bot agent with reusable specialists and o-MATIC Server project selection",
+      "description": "Your o-MATIC factory lead: starts and verifies the selected factory, then routes work to its specialist crew through your authenticated o-MATIC Server.",
       "version": "0.1.1",
       "author": {
-        "name": "LucidIT"
-      }
+        "name": "o-MATIC AI Research Lab"
+      },
+      "logo": "https://raw.githubusercontent.com/lucidIT-LLC/o-matic-agency/main/agency/assets/m365/probot-color-192.png"
     }
   ]
 }
