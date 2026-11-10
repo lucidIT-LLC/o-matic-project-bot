@@ -12,7 +12,7 @@ The canonical role design is shared. Each host gets its own packaging, connector
 
 | Host | Included projection | Delegation status |
 |---|---|---|
-| Codex / ChatGPT | OpenAI plugin package with skills and Server MCP configuration; Codex-native project subagents included | Codex agent files are project scoped and are not installed by the ChatGPT/Codex plugin alone. Verify actual handoffs and Server grants. |
+| Codex / ChatGPT | OpenAI plugin package with skills and Server MCP; separate native Workspace Agent build projection | Installing the plugin does not create a Workspace Agent. Build and publish the Agent separately in Agent Builder; verify actual skills/tools and Server grants. |
 | Cursor | Cursor Plugin with agent definitions, skills, and MCP configuration | Native agent definitions are included; test Project/Agent handoff and separately bind each MCP principal. |
 | Claude Code / Cowork | Claude plugin with agents, skills, and MCP configuration | Claude Code and Cowork support plugin agent components; test each surface. General Claude chat does not imply agent handoffs. |
 | Grok Build | Claude-compatible plugin plus portable skills and AGENTS.md | Grok Build documents plugin and subagent support. Confirm live handoffs in the installed version. |
@@ -64,7 +64,7 @@ In Cursor, open **Customize → Plugins → Browse Marketplace → Add Marketpla
 
 ### Other hosts
 
-For Copilot Studio, follow [`hosts/copilot-studio/BUILD.md`](hosts/copilot-studio/BUILD.md) to create the agent and connected specialists manually. For ChatGPT/Codex, package the OpenAI plugin folder and upload it through the plugin UI; submission to OpenAI's public directory is a separate reviewed step.
+For Copilot Studio, follow [`hosts/copilot-studio/BUILD.md`](hosts/copilot-studio/BUILD.md) to create the agent and connected specialists manually. For ChatGPT/Codex plugins, package the OpenAI plugin folder and upload it through the plugin UI; public-directory submission is separate. To create the native agent shown in the ChatGPT Agents directory, follow [`hosts/chatgpt-workspace-agent/BUILD.md`](hosts/chatgpt-workspace-agent/BUILD.md). A plugin install does not create or publish that Workspace Agent.
 
 These GitHub-hosted catalogs make the plugin installable directly from this repository. Anthropic's public directory requires a paid Claude account and a separate portal submission. Cursor's curated public Marketplace also requires a submission and review; Cursor requires public marketplace plugins to be open source. This repo currently reserves all rights, so it is not being submitted to Cursor's public directory under the current license.
 
