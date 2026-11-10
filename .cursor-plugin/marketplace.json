@@ -8,14 +8,14 @@
   },
   "plugins": [
     {
-      "name": "omatic-project-bot",
+      "name": "o-matic-project-bot",
       "source": "hosts/cursor",
       "description": "Your o-MATIC factory lead: starts and verifies the selected factory, then routes work to its specialist crew through your authenticated o-MATIC Server.",
       "version": "0.1.2",
       "author": {
         "name": "o-MATIC AI Research Lab"
       },
-      "logo": "https://raw.githubusercontent.com/lucidIT-LLC/o-matic-agency/main/agency/assets/m365/probot-color-192.png"
+      "logo": "hosts/cursor/assets/logo.png"
     }
   ]
 }
