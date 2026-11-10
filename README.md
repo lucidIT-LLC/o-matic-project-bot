@@ -53,12 +53,12 @@ Add this public GitHub repository as a marketplace, then install Project Bot:
 
 ```sh
 claude plugin marketplace add LucidIT-LLC/o-matic-project-bot
-claude plugin install omatic-project-bot@o-matic-project-bot-marketplace
+claude plugin install o-matic-project-bot@o-matic-project-bot-marketplace
 ```
 
 ### Cursor marketplace
 
-In Cursor, open **Customize → Plugins → Browse Marketplace → Add Marketplace → Import from GitHub**, then enter `https://github.com/LucidIT-LLC/o-matic-project-bot`. Install `omatic-project-bot` at user or project scope. A team admin can import the same repository under **Dashboard → Plugins & MCPs → Team Marketplaces**.
+In Cursor, open **Customize → Plugins → Browse Marketplace → Add Marketplace → Import from GitHub**, then enter `https://github.com/LucidIT-LLC/o-matic-project-bot`. Install `o-matic-project-bot` at user or project scope. A team admin can import the same repository under **Dashboard → Plugins & MCPs → Team Marketplaces**.
 
 ### Other hosts
 
