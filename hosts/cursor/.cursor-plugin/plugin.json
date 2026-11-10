@@ -2,11 +2,12 @@
   "name": "omatic-project-bot",
   "displayName": "o-MATIC Project Bot",
   "version": "0.1.1",
-  "description": "Project Bot and specialist agents for o-MATIC Foundry.",
+  "description": "Your o-MATIC factory lead: starts and verifies the selected factory, then routes work to its specialist crew through your authenticated o-MATIC Server.",
   "author": {
-    "name": "LucidIT"
+    "name": "o-MATIC AI Research Lab"
   },
   "repository": "https://github.com/LucidIT-LLC/o-matic-project-bot",
+  "logo": "https://raw.githubusercontent.com/lucidIT-LLC/o-matic-agency/main/agency/assets/m365/probot-color-192.png",
   "mcpServers": "./mcp.json",
   "agents": "./agents/",
   "skills": "./skills/"
