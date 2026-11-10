@@ -2,6 +2,10 @@
 
 This file builds the native ChatGPT Workspace Agent shown in the Agents directory. It is a separate host projection from the o-MATIC plugin. Installing the plugin does **not** create, configure, or publish this Workspace Agent.
 
+> **Architecture gate:** This creates one Workspace Agent with tools and skills. The ChatGPT builder does not expose a sub-agent graph in its documented configuration. Adding Fred, Data, Carver, Brandy, and Monet as skills does not make them child agents or guarantee automatic handoffs. If the requirement is true L2 orchestration with independently executing specialists, do not treat this single-agent setup as the finished design or publish it as such. Choose an execution runtime that explicitly supports subagents and verify the handoffs.
+
+> **MCP gate:** The Server's current client support register marks ChatGPT/Enterprise unverified. The connection from Codex is live, but that is not evidence that ChatGPT can reach or authenticate to the same endpoint. Follow the actual endpoint's OAuth and reachability checks below; do not mark the ChatGPT projection ready until a fresh ChatGPT test call succeeds under the intended user's identity.
+
 ## Agent card
 
 **Name**  
