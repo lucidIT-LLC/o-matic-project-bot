@@ -1,5 +1,5 @@
 {
-  "name": "omatic-project-bot",
+  "name": "o-matic-project-bot",
   "version": "0.1.2",
   "description": "Project Bot and specialist workflows for o-MATIC factories; requires an authorized o-MATIC Server connection.",
   "skills": "./skills/",
