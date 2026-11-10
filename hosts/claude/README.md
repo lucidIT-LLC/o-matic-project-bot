@@ -4,8 +4,10 @@ The repository root contains a Claude Code marketplace catalog pointing to this 
 
 ```sh
 claude plugin marketplace add LucidIT-LLC/o-matic-project-bot
-claude plugin install omatic-project-bot@o-matic-project-bot-marketplace
+claude plugin install o-matic-project-bot@o-matic-project-bot-marketplace
 ```
+
+The Project Bot artwork is included at `assets/logo.png`. Claude Code's current plugin and marketplace schema provides a display name but no marketplace icon field, so the image is available to hosts that expose avatar upload without adding an unsupported manifest property.
 
 This is LucidIT's GitHub-hosted marketplace. Anthropic's public directory is a separate, reviewed listing that requires submission through its developer portal.
 
