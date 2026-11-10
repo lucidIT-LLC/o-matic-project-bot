@@ -1,0 +1,14 @@
+{
+  "id": "omatic-foundry",
+  "displayName": "o-MATIC Foundry / o-MATIC Project Bot",
+  "lead": "probot",
+  "roster": [
+    "fred",
+    "data",
+    "carver",
+    "brandy",
+    "monet"
+  ],
+  "goal": "Build and deliver working o-MATIC software, agents, plugins, MCP integrations, and products.",
+  "serverFactory": "selected by live authorized Server startup; no database or tenant ID is embedded"
+}

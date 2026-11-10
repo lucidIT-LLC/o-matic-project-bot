@@ -1,0 +1,14 @@
+{
+  "id": "customer-delivery",
+  "displayName": "Customer Delivery Factory",
+  "lead": "probot",
+  "roster": [
+    "fred",
+    "data",
+    "carver",
+    "brandy",
+    "monet"
+  ],
+  "goal": "Deliver customer work within the customer-specific Server factory, corpus, agreements, and grants.",
+  "serverFactory": "must be selected from the authenticated user\u2019s live Server grants; customer data is not bundled"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "o-matic-server": {
+      "type": "http",
+      "url": "https://factory.o-matic.ai/mcp"
+    }
+  }
+}

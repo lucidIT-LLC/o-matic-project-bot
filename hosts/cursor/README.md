@@ -1,0 +1,3 @@
+# Cursor projection
+
+This Cursor-native plugin bundles Probot as the Foundry lead, specialist agent definitions, role skills, and Server MCP metadata. It can be adapted into other Factory Agent compositions by selecting another lead and Server context without copying the role source. Cursor Projects/workspaces are optional execution context; the Server-selected factory remains the operational boundary. Import the repository as a team marketplace or submit the plugin after its URL is live. Test actual child handoffs and each MCP principal identity separately.

@@ -1,0 +1,9 @@
+{
+  "name": "omatic-project-bot",
+  "version": "0.1.0",
+  "description": "Project Bot and specialist agents for o-MATIC Foundry",
+  "author": {
+    "name": "LucidIT"
+  },
+  "repository": "https://github.com/LucidIT-LLC/o-matic-project-bot"
+}

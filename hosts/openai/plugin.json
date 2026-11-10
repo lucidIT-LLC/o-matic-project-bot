@@ -1,0 +1,24 @@
+{
+  "name": "omatic-project-bot",
+  "version": "0.1.0",
+  "description": "Project Bot and specialist workflows for o-MATIC Foundry; requires an authorized o-MATIC Server connection.",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "o-MATIC Project Bot",
+        "shortDescription": "Coordinate an o-MATIC factory",
+        "longDescription": "Project Bot coordinates an o-MATIC factory request end to end and routes material work to specialist roles for documents, data retrieval, software, marketing, and visual design. Requires a separate authenticated o-MATIC Server connection. Host-specific orchestration and permissions must be configured and verified.",
+        "developerName": "LucidIT",
+        "category": "Productivity",
+        "capabilities": [
+          "Coordinate a factory request from plan through verification",
+          "Use connected o-MATIC Server tools when authenticated and authorized",
+          "Route work to specialist role skills where supported"
+        ],
+        "prompt": "Start the o-MATIC factory and report the live checks and available specialists."
+      }
+    }
+  }
+}

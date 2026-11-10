@@ -1,0 +1,8 @@
+Copyright (c) 2026 LucidIT. All rights reserved.
+
+This public repository is source-available. No license is granted to copy,
+modify, redistribute, sublicense, or create derivative works from these files,
+except where LucidIT separately grants permission in writing. No rights to the
+o-MATIC Server, service, trademarks, factory data, or internal operating
+materials are granted. Use of o-MATIC Server requires separate authentication
+and authorization.

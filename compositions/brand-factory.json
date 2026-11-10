@@ -1,0 +1,17 @@
+{
+  "id": "brand-factory",
+  "displayName": "Brand Factory",
+  "lead": "brandy",
+  "roster": [
+    "probot",
+    "fred",
+    "data",
+    "carver",
+    "monet"
+  ],
+  "goal": "Deliver approved brand-led marketing outcomes with Brandy accountable for the integrated result.",
+  "roleLanes": {
+    "probot": "factory operations, startup, capability discovery, governance-aware routing, operational verification"
+  },
+  "serverFactory": "must be selected from the authenticated user\u2019s live Server grants; no factory data is bundled"
+}
