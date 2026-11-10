@@ -4,6 +4,7 @@ This is a manual projection because Agent Builder does not import the whole Foun
 
 ## Create the parent
 
+- **Agent icon:** Upload the shared Probot image from `assets/logo.png` in this host package so the same o-MATIC robot identity appears in Copilot Studio.
 - **Name:** o-MATIC Project Bot
 - **Description:** o-MATIC factory coordinator. Turns requests into clear plans, routes work to verified specialists, and owns the result from startup through evidence-based closeout. Uses live o-MATIC Server tools only when connected and authorized.
 - Paste [`../../roles/probot.md`](../../roles/probot.md) into the parent Instructions, then add `AGENTS.md` shared rules as allowed by the field limit.
